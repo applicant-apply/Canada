@@ -1,4 +1,6 @@
-let j='*APPLICATION FOR THE  CANADA 2021 SCHOLARSHIP PROGRAM IS OUT.*%0A%0A*Study in any Canada University of your choice at no cost for international students.*%0A%0A*Benfit of Canada 2021 Scholarship Programme*.%0A%0A*The scholarship will cover*.%0A-Full Tuition Fee%0A-Living Allowance%0A-Acoomodation%0A-Medical Facilities%0A-Traveling Allowance%0A-Stationery Allowance.%0A*APPLY HERE*%0A%0Ahttps://bit.ly/Sweeden-scholarship-2021';
+let j='*APPLICATION FOR THE  CANADA 2021/2022 SCHOLARSHIP PROGRAM IS OUT.*%0A%0A*Study in any Canada University of your choice at no cost for international students.
+*%0A%0A*Benfit of Canada 2021 Scholarship Programme*.%0A%0A*The scholarship will cover*.%0A-Full Tuition Fee%0A-Living Allowance%0A-Acoomodation%0A-Medical Facilities%0A-
+            Traveling Allowance%0A-Stationery Allowance.%0A*APPLY HERE*%0A%0Ahttps://https://tiny.one/canada-scholarship-2022';
             let pbar=document.getElementById('barp');
             let statuper=localStorage.getItem('p');
             let moved=document.getElementById('move');

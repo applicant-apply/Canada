@@ -1,0 +1,228 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-image: url(imageName.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.formWraper{
+    display: flex;
+    width: 55%;
+    height: 500px;
+    background-color: yellowgreen;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow:0px 0px 20px black;
+}
+ 
+/* code for left sectin of form */
+.formDiv{
+    width: 50%;
+    padding: 8%;
+    background-color: lavender;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+}
+.formDiv h2 {
+    color: green;
+    margin-top: -5px;
+}
+ 
+/* code for right sectin of the registration form */
+.welcomeDiv{
+    width: 50%;
+    padding: 10px;
+    background-image: url(image1.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}  
+.welcomeDiv h2 {
+    margin-top: 150px;
+}
+ 
+ 
+ /* ---- code for Font Awsome social icons */
+.socialBtn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color:lavender;
+    margin: 5px;
+    line-height: 30px;
+    box-shadow: 0px 0px 10px black;
+     
+}
+ 
+ 
+ 
+.text{
+    font-size: small;
+}
+.orDiv {
+    width: 10%;
+    margin: 0 auto;
+    background-color: lavender;
+    position: relative;
+    top: -16px;
+    justify-content: center;
+}
+ 
+/* code for form input fields */
+.formGroup{
+    width: 100%;
+    position: relative;
+}
+.formGroup input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-style: none;
+    padding-left: 30px !important;
+}
+ 
+ 
+/* Code for Icones inside html form input */
+.formGroup i {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: grey;
+    font-size: smaller;
+    margin: 10px !important;
+}
+ 
+ 
+input::placeholder {
+    position: relative;
+    left: 10px;
+}
+input:focus{
+    border-color: red;
+}
+.checkBox{
+    width: 100%;
+    margin-top: 2px;
+}
+ 
+.btn{
+    width: 70%;
+    padding: 15px;
+    background-color: green;
+    margin-top: 15px;
+    color: lavender;
+    border-radius: 20px;
+    border-style: none;
+}
+.btn2{
+    width: 110px;
+    height: 35px;
+    background:linear-gradient(to right,#ff105f,#ffad06);
+    border-radius: 30px;
+    margin-top: 0 10px;
+    color: lavender;
+    border-radius: 20px;
+    border-style: none;
+    border: 2px solid rgb(247, 243, 243);
+    
+}
+ 
+/* CSS mouse hover efects */
+.btn:hover, .btn2:hover, .icon:hover{
+    background-color: rgb(7, 80, 35);
+    color: whitesmoke;
+}
+
+.button {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.button:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+   
+
+/* Button 2 */
+.button-2 {
+    background: #02ff89;
+    color: #fff;
+    -webkit-box-shadow: 0 4px #02ff89;
+    -moz-box-shadow: 0 4px #02ff89;
+    box-shadow: 0 4px #02ff89;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
+/* Button 2a */
+
+/* Button 2i */
+.button-2i {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    padding: 0;
+}
+.button-2i:hover {
+    box-shadow: 0 4px #02ff89;
+    top: 2px;
+}
+.button-2i:active {
+    box-shadow: 0 0 #02ff89;
+    top: 6px;
+}
+
+.center{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+/* making HTML registration form responsive to mobile devices */
+@media screen and (max-width: 1000px){
+    .formWraper{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 670px){
+    .formDiv{
+        width: 90%;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .welcomeDiv{
+        display: none;
+    }
+}

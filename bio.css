@@ -1,0 +1,96 @@
+/* General button style (reset) */
+.button {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.button:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.center{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+   
+}
+/* Button 2 */
+.button-2 {
+    background: #02ff89;
+    color: #fff;
+    -webkit-box-shadow: 0 4px #02ff89;
+    -moz-box-shadow: 0 4px #02ff89;
+    box-shadow: 0 4px #02ff89;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
+/* Button 2a */
+
+/* Button 2i */
+.button-2i {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    padding: 0;
+}
+.button-2i:hover {
+    box-shadow: 0 4px #02ff89;
+    top: 2px;
+}
+.button-2i:active {
+    box-shadow: 0 0 #02ff89;
+    top: 6px;
+}
+
+.container2{
+    width: 360px;
+    height: 400px;
+    margin:8% auto ;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(225, 232, 233);
+    background-position: center;
+    background-size: cover;
+}  
+
+
+.myh3{
+    
+    color: blue;
+    margin-bottom: 40px;
+   padding-top: 40px;
+    text-align: center;
+}
+.container2form{
+   margin: auto;
+    
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="application.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container center" id="info">
+         
+        <div >
+            <div >
+                <h2 class="center">Scholarship Application Wizard</h2>
+                <h4 class="center" id="info">To complete your application process click on the start button to startup Application Wizard.&nbsp;</h3>
+            </div>
+            <div id="start1" onclick="wizerd()" class="center" >
+                <button class="button button-2 button-2i">Start</button>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="box" id="wiz">
+        
+        <form id="form1">
+            
+            <h3>Application Form</h3>
+            <input type="text" placeholder="First name" required>
+            <input type="text" placeholder="Middel name" required>
+            <input type="text" placeholder="Last name" required>
+
+
+            <div class="btn-box">
+                <button type="button" onclick="gotoform2()">Next</button>
+            </div>
+        </form>
+
+        <form id="form2">
+            <h3>Application Form</h3>
+            <input type="date" placeholder="Date Of Birth" required>
+            <input type="text" placeholder="Country" required>
+            <input type="text" placeholder="Course" required>
+
+
+            <div class="btn-box">
+                <button type="button" onclick="gotoform1()">Previous </button>
+                <button type="button" onclick="gotoform3()">Next</button>
+            </div>
+        </form>
+
+        <form id="form3">
+            <h3>Application Form</h3>
+            <input type="text" placeholder="Gender" required>
+            <input type="text" placeholder="Middel name" required>
+            <div class="btn-box">
+                <button type="button"onclick="gotoform2()">Previous</button>
+                <a href="final.html"><button type="button">Submit</button></a>
+            </div>
+        </form>
+    </div>
+
+ 
+    <script src="application.js"></script>
+</body>
+
+</html>
